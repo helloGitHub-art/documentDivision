@@ -5,13 +5,13 @@ python 版本：3.12.12
 操作系统：windows11
 GPU：RTX-3050（4GB显存）
 ## 项目文件结构介绍
-### history_code
+#### history_code目录
 存放了调研过程中的历史代码
 可以快速验证和复现结果
 （需要修改代码中的图片路径）
-### sam_weights
+#### sam_weights目录
 存放sam权重文件（base版）
-### test
+#### test目录
 保存了测试样例和效果展示
 
 
