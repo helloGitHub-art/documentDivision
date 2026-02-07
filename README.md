@@ -21,11 +21,13 @@ python -m venv myVenv
 myVenv/scripts/activate
 4.安装必要库
 python install -r requirements.txt
-5.修改路径
-SAM-canny-final.py（批量图片处理）：将图片目录改为真实目录
-SAM-canny-test.py（单个图片处理）：
-将图片文件路径改为真实路径
-另外修改输出的保存目录
+5.修改路径:
+SAM模型路径
+测试样例路径
+    SAM-canny-final.py（批量图片处理）：将图片目录改为真实目录
+    SAM-canny-test.py（单个图片处理）：将图片文件路径改为真实路径
+输出目录
+6.python SAM-canny-final.py
 
 
 
