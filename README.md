@@ -46,12 +46,12 @@ SAM-canny-test.py（单个图片处理）：
 
 ## 结果展示
 可见test\result目录下的结果
-![图片1](\test\result\49e155ad-6fd150513ccb9e48fe819baf7933cc39_sam_annotated.png "image1")
-![图片2](\test\result\4654fad7-8037e6e94a80daf1be21e691bdd88caf_sam_annotated.png "image")
-![图片3](\test\result\d9619fe3-ca0d4e0dd63a66c1dd02089d630b53fc_sam_annotated.png "image3")
-![图片4](\test\result\image1_sam_annotated.png "image4")
-![图片5](\test\result\image4_sam_annotated.png "image5")
-![图片6](\test\result\image5_sam_annotated.png "image6")
+![图片1](test/result/49e155ad-6fd150513ccb9e48fe819baf7933cc39_sam_annotated.png "image1")
+![图片2](test/result/4654fad7-8037e6e94a80daf1be21e691bdd88caf_sam_annotated.png "image")
+![图片3](test/result/d9619fe3-ca0d4e0dd63a66c1dd02089d630b53fc_sam_annotated.png "image3")
+![图片4](test/result/image1_sam_annotated.png "image4")
+![图片5](test/result/image4_sam_annotated.png "image5")
+![图片6](test/result/image5_sam_annotated.png "image6")
 
 
 
