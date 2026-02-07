@@ -18,7 +18,7 @@
   git clone https://github.com/helloGitHub-art/documentDivision.git
 ```
     
-#### 2.安装环境
+#### 2.创建隔离环境
 ```
   python -m venv myVenv
 ```
@@ -30,7 +30,7 @@
 
 #### 4.安装必要库
 ```
-  python install -r requirements.txt
+  pip install -r requirements.txt
 ```
 
 #### 5.修改路径
