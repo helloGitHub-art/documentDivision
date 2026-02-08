@@ -38,14 +38,15 @@ GPU：RTX-3050（4GB显存）
 ```
   pip install -r requirements.txt
 ```
-
-#### 5.修改路径
+#### 5.下载SAM权重文件
+前往 https://github.com/facebookresearch/segment-anything 下载SAM模型权重文件至文件夹sam-weights下
+#### 6.修改路径
 SAM-canny-final.py（批量图片处理）：将图片目录改为真实目录
 SAM-canny-test.py（单个图片处理）：
 将图片文件路径改为真实路径
 另外修改输出的保存目录
 
-#### 6.运行
+#### 7.运行
 ```
   python SAM-canny-final.py
 ```
