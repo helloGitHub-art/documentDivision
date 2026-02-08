@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+
+models/
+outputs/
+test/result/
+sam_weights/*.pth
