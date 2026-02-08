@@ -165,8 +165,8 @@ def sam_generate_mask_canny_and_annotate(img_path, sam_model_path, output_dir,
 def batch_process_images(input_dir, output_dir, sam_model_path, model_type="vit_b"):
     """
     批量处理指定目录下的所有图片
-    :param input_dir: 输入图片目录（H:\PythonProject\vsPythonPro\docDiv\data\test\test-image）
-    :param output_dir: 输出结果目录（H:\PythonProject\vsPythonPro\docDiv\data\test\result）
+    :param input_dir: 输入图片目录（test\test-image）
+    :param output_dir: 输出结果目录（test\result）
     :param sam_model_path: SAM模型权重路径
     :param model_type: SAM模型类型
     """
