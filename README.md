@@ -34,18 +34,27 @@ GPU：RTX-3050（4GB显存）
   myVenv/scripts/activate
 ```
 
-#### 4.安装必要库
+#### 4.安装 torch（先选 CPU 或 GPU 版本）
+CPU 版（无显卡/不需要 GPU）：
+```
+  pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+```
+GPU 版（NVIDIA 显卡，CUDA 12.x）：
+```
+  pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+```
+#### 5.安装其余依赖
 ```
   pip install -r requirements.txt
 ```
 
-#### 5.修改路径
+#### 6.修改路径
 SAM-canny-final.py（批量图片处理）：将图片目录改为真实目录
 SAM-canny-test.py（单个图片处理）：
 将图片文件路径改为真实路径
 另外修改输出的保存目录
 
-#### 6.运行
+#### 7.运行
 ```
   python SAM-canny-final.py
 ```
